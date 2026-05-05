@@ -42,3 +42,4 @@ const Titulo=document.getElementById("titulo")
 Titulo.innerText= "O DOM Mudou o texto";
 
 Titulo.style.color="blue";
+

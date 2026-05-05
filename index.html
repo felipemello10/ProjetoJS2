@@ -8,8 +8,22 @@
     <title>Projeto</title>
 </head>
 <body>
-    <h1 id="titulo">Titulo Original</h1>
+    <header>
+        <h1>Meu App Produto</h1>
+        <h2 id="titulo">Titulo Original</h2>
+    </header>
+    <main class="container">
+        <div class="btns">
+            <button onclick="todosProdutos()">Mostrar Todos(Map)</button>
+            <button onclick="filtrarPromocoes()">Apenas Promoções(Filter)</button>
+            <button onclick="calcularTotal()">Calcular Total(Reduce)</button>
+
+        </div>
+        <div id="listar-produtos" class="produtos"></div>
+        <div id="resultado-total"></div>        
+    </main>
     
+
     
     <!-- JS EXTERNO -->
     <script src="./src/js/script.js"></script>
